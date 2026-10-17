@@ -92,5 +92,26 @@ retail-sales-analysis/
 ## Conclusion
 This project demonstrates the practical use of SQL for retail sales analysis. It covers database creation, data retrieval, filtering, aggregation, table joins, and date-based analysis to answer business questions and generate meaningful insights from structured data.
 
+##SQL Query Results
+Q1. What is the Total Revenue?
+
+Q2. How Many Orders Has the Store Received?
+
+Q3. Which Products Are Available?
+
+Q4. Which Products Have a Price Greater Than ₹5,000?
+
+Q5. How Much Revenue Has Each Product Generated?
+
+Q6. Which Product Category Generates the Highest Revenue?
+
+Q7. How Many Orders Has Each Customer Placed?
+
+Q8. Which City Generates the Highest Revenue?
+
+Q9. What Is the Total Quantity of Products Sold?
+
+Q10. What Is the Monthly Revenue?
+
 **Project Type:** SQL Data Analysis Project  
 **Database:** MySQL
