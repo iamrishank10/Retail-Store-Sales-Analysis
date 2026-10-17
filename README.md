@@ -115,43 +115,50 @@ The following screenshots show the results of the 10 business questions answered
 
 ### Q1. What Is the Total Revenue?
 
-![Q1 Total Revenue](screenshots/Q1_total_revenue.png)
+<img width="440" height="141" alt="Screenshot 2026-10-17 084724" src="https://github.com/user-attachments/assets/41cccbab-243e-4c01-8e89-371071fd6cb5" />)
 
 ### Q2. How Many Orders Has the Store Received?
 
-![Q2 Total Orders](screenshots/Q2_total_orders.png)
+<img width="365" height="152" alt="image" src="https://github.com/user-attachments/assets/42e42f05-0293-4323-8b7a-f41076790f78" />
 
 ### Q3. Which Products Are Available?
 
-![Q3 Products Available](screenshots/Q3_products_available.png)
+<img width="356" height="185" alt="image" src="https://github.com/user-attachments/assets/6c48b699-54d0-45df-9b73-afa6811fb0e0" />
+
 
 ### Q4. Which Products Have a Price Greater Than ₹5,000?
 
-![Q4 Products Above ₹5,000](screenshots/Q4_products_above_5000.png)
+<img width="394" height="182" alt="image" src="https://github.com/user-attachments/assets/be245ca6-c2c1-46ce-8249-e58de40ab05e" />
+
 
 ### Q5. How Much Revenue Has Each Product Generated?
 
-![Q5 Revenue by Product](screenshots/Q5_revenue_by_product.png)
+<img width="365" height="263" alt="image" src="https://github.com/user-attachments/assets/6a64ba9d-e8d1-4fad-a4df-bc9a3cf24ee0" />
+
 
 ### Q6. Which Product Category Generates the Highest Revenue?
 
-![Q6 Top Product Category](screenshots/Q6_top_category.png)
+<img width="425" height="215" alt="image" src="https://github.com/user-attachments/assets/b7c30710-7567-47fb-8d56-8709ffa6de29" />
+
 
 ### Q7. How Many Orders Has Each Customer Placed?
 
-![Q7 Orders by Customer](screenshots/Q7_orders_by_customer.png)
+<img width="352" height="260" alt="image" src="https://github.com/user-attachments/assets/f3c3b4b6-d559-411f-8f57-cf71b0d97db7" />
+
 
 ### Q8. Which City Generates the Highest Revenue?
 
-![Q8 Revenue by City](screenshots/Q8_revenue_by_city.png)
+<img width="344" height="214" alt="image" src="https://github.com/user-attachments/assets/997ee30d-3d74-4571-ae0a-77eccf90296b" />
+
 
 ### Q9. What Is the Total Quantity of Products Sold?
 
-![Q9 Total Quantity Sold](screenshots/Q9_total_quantity_sold.png)
+<img width="367" height="157" alt="image" src="https://github.com/user-attachments/assets/8d0c7a86-50de-4269-b7fd-5deda76d49ae" />
+
 
 ### Q10. What Is the Monthly Revenue?
 
-![Q10 Monthly Revenue](screenshots/Q10_monthly_revenue.png)
+<img width="355" height="278" alt="image" src="https://github.com/user-attachments/assets/991b0034-e150-4c8b-b64c-9c9c0136854a" />
 
 ## Conclusion
 
