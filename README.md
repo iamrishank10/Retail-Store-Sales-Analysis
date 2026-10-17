@@ -88,16 +88,16 @@ These findings are based on the sample data created for this project and demonst
 retail-sales-analysis/
 ├── README.md
 ├── screenshots/
-│   ├── Q1_total_revenue.png
-│   ├── Q2_total_orders.png
-│   ├── Q3_products_available.png
-│   ├── Q4_products_above_5000.png
-│   ├── Q5_revenue_by_product.png
-│   ├── Q6_top_category.png
-│   ├── Q7_orders_by_customer.png
-│   ├── Q8_revenue_by_city.png
-│   ├── Q9_total_quantity_sold.png
-│   └── Q10_monthly_revenue.png
+│   ├── Q1_total_revenue
+│   ├── Q2_total_orders
+│   ├── Q3_products_available
+│   ├── Q4_products_above_5000
+│   ├── Q5_revenue_by_product
+│   ├── Q6_top_category
+│   ├── Q7_orders_by_customer
+│   ├── Q8_revenue_by_city
+│   ├── Q9_total_quantity_sold
+│   └── Q10_monthly_revenue
 └── sql/
     └── retail_sales_analysis.sql
 ```
