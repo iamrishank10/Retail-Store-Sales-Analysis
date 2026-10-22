@@ -142,39 +142,39 @@ These findings are based on the sample data created for this project and demonst
 retail-sales-analysis/
 ├── README.md
 ├── screenshots/
-│   ├── Q1_total_revenue.png
-│   ├── Q2_total_orders.png
-│   ├── Q3_products_available.png
-│   ├── Q4_products_above_5000.png
-│   ├── Q5_revenue_by_product.png
-│   ├── Q6_top_category.png
-│   ├── Q7_orders_by_customer.png
-│   ├── Q8_revenue_by_city.png
-│   ├── Q9_total_quantity_sold.png
-│   ├── Q10_monthly_revenue.png
-│   ├── Q11_update_customer_data.png
-│   ├── Q12_modulo_operator.png
-│   ├── Q13_arithmetic_operators.png
-│   ├── Q14_and_operator.png
-│   ├── Q15_or_operator.png
-│   ├── Q16_not_in_operator.png
-│   ├── Q17_distinct_values.png
-│   ├── Q18_having_clause.png
-│   ├── Q19_limit_clause.png
-│   ├── Q20_primary_key_constraints.png
-│   ├── Q21_foreign_key_constraints.png
-│   ├── Q22_check_constraint.png
-│   ├── Q23_inner_join.png
-│   ├── Q24_left_join.png
-│   ├── Q25_right_join.png
-│   ├── Q26_cross_join.png
-│   ├── Q27_cte.png
-│   ├── Q28_row_number.png
-│   ├── Q29_rank.png
-│   ├── Q30_dense_rank.png
-│   ├── Q31_lag.png
-│   ├── Q32_lead.png
-│   └── Q33_first_value.png
+│   ├── Q1_total_revenue
+│   ├── Q2_total_orders
+│   ├── Q3_products_available
+│   ├── Q4_products_above_5000
+│   ├── Q5_revenue_by_product
+│   ├── Q6_highest_revenue_category
+│   ├── Q7_orders_by_customer
+│   ├── Q8_highest_revenue_city
+│   ├── Q9_total_quantity_sold
+│   ├── Q10_monthly_revenue
+│   ├── Q11_update_product_price
+│   ├── Q12_even_quantity_orders
+│   ├── Q13_discounted_product_price
+│   ├── Q14_and_operator
+│   ├── Q15_or_operator
+│   ├── Q16_not_in_cities
+│   ├── Q17_unique_customer_cities
+│   ├── Q18_category_revenue_above_50000
+│   ├── Q19_top_3_expensive_products
+│   ├── Q20_product_table_constraints
+│   ├── Q21_orders_with_customer_product_names
+│   ├── Q22_all_customers_with_orders
+│   ├── Q23_customers_and_orders_left_join
+│   ├── Q24_customer_product_combinations
+│   ├── Q25_customer_spending_cte
+│   ├── Q26_row_number_orders
+│   ├── Q27_rank_orders
+│   ├── Q28_dense_rank_orders
+│   ├── Q29_lag_previous_order_amount
+│   ├── Q30_lead_next_order_amount
+│   ├── Q31_first_value_order_amount
+│   ├── Q32_last_value_order_amount
+│   └── Q33_running_total_revenue
 └── sql/
     └── retail_sales_analysis.sql
 ```
