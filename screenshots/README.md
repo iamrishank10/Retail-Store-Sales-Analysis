@@ -59,3 +59,7 @@ April 2025: ₹28,000
 May 2025: ₹17,500
 
 <img width="355" height="278" alt="image" src="https://github.com/user-attachments/assets/991b0034-e150-4c8b-b64c-9c9c0136854a" />
+
+Q11. How can we update the price of a product?
+<img width="361" height="206" alt="image" src="https://github.com/user-attachments/assets/eb8a4bf6-45ae-4021-8dea-0f2645c37cc3" />
+
