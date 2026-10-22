@@ -56,8 +56,7 @@ The project uses three tables:
 - order_date - Date of the order
 - quantity - Number of units purchased
 - total_amount - Total amount for the order
-
-The tables are connected through primary and foreign key relationships to maintain data integrity.
+- The tables are connected through primary and foreign key relationships to maintain data integrity.
 
 **Tools and Technologies**
 
@@ -76,8 +75,7 @@ The tables are connected through primary and foreign key relationships to mainta
 - UPDATE for modifying existing records
 - DISTINCT for retrieving unique values
 - ALTER TABLE and table constraints
-
-**Primary keys, foreign keys, NOT NULL, and CHECK**
+- Primary keys, foreign keys, NOT NULL, and CHECK 
 
 **2. Filtering and Operators**
 
@@ -133,8 +131,6 @@ The tables are connected through primary and foreign key relationships to mainta
 - Top Revenue Products: Laptop and Mobile Phone, generating ₹100,000 each
 - Highest-Revenue City: Delhi, generating ₹134,500
 - Highest-Revenue Month: January 2025, generating ₹90,000
-
-These findings are based on the sample data created for this project and demonstrate how SQL can be used to analyze retail sales performance. The additional queries extend the project beyond basic reporting to include data manipulation, ranking, comparisons, and running-total calculations.
 
 ## Project Structure
 
