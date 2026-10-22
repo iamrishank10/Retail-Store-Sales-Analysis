@@ -103,8 +103,8 @@ The tables are connected through primary and foreign key relationships to mainta
 - RIGHT JOIN
 - CROSS JOIN
 
-**5. Common Table Expressions (CTEs)
-**
+**5. Common Table Expressions (CTEs)**
+
 - Using WITH to create temporary named result sets
 - Simplifying complex queries
 - Making SQL queries easier to read and organize
@@ -142,16 +142,39 @@ These findings are based on the sample data created for this project and demonst
 retail-sales-analysis/
 ├── README.md
 ├── screenshots/
-│   ├── Q1_total_revenue
-│   ├── Q2_total_orders
-│   ├── Q3_products_available
-│   ├── Q4_products_above_5000
-│   ├── Q5_revenue_by_product
-│   ├── Q6_top_category
-│   ├── Q7_orders_by_customer
-│   ├── Q8_revenue_by_city
-│   ├── Q9_total_quantity_sold
-│   └── Q10_monthly_revenue
+│   ├── Q1_total_revenue.png
+│   ├── Q2_total_orders.png
+│   ├── Q3_products_available.png
+│   ├── Q4_products_above_5000.png
+│   ├── Q5_revenue_by_product.png
+│   ├── Q6_top_category.png
+│   ├── Q7_orders_by_customer.png
+│   ├── Q8_revenue_by_city.png
+│   ├── Q9_total_quantity_sold.png
+│   ├── Q10_monthly_revenue.png
+│   ├── Q11_update_customer_data.png
+│   ├── Q12_modulo_operator.png
+│   ├── Q13_arithmetic_operators.png
+│   ├── Q14_and_operator.png
+│   ├── Q15_or_operator.png
+│   ├── Q16_not_in_operator.png
+│   ├── Q17_distinct_values.png
+│   ├── Q18_having_clause.png
+│   ├── Q19_limit_clause.png
+│   ├── Q20_primary_key_constraints.png
+│   ├── Q21_foreign_key_constraints.png
+│   ├── Q22_check_constraint.png
+│   ├── Q23_inner_join.png
+│   ├── Q24_left_join.png
+│   ├── Q25_right_join.png
+│   ├── Q26_cross_join.png
+│   ├── Q27_cte.png
+│   ├── Q28_row_number.png
+│   ├── Q29_rank.png
+│   ├── Q30_dense_rank.png
+│   ├── Q31_lag.png
+│   ├── Q32_lead.png
+│   └── Q33_first_value.png
 └── sql/
     └── retail_sales_analysis.sql
 ```
