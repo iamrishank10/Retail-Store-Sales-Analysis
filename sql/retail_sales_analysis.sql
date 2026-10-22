@@ -1,6 +1,6 @@
 
 -- Project name: Retail Store Sales Analysis
--- Business scenario: You are a Business Analyst working for a retail store. 
+-- Business scenario: You are a Data Analyst working for a retail store. 
 -- The store manager wants to understand which products sell the most, how much 
 -- revenue the store earns, which customers spend the most, and which product categories perform best.
 -- Your task is to create a database in MySQL, insert sample data, and answer business questions using SQL queries.
