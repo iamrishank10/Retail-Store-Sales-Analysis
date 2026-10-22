@@ -19,21 +19,25 @@ The store has 6 products available: Laptop, Mobile Phone, Headphones, Keyboard, 
  Q4. Which Products Have a Price Greater Than ₹5,000?
 
 The products priced above ₹5,000 are identified using the WHERE clause.
+
 <img width="394" height="182" alt="image" src="https://github.com/user-attachments/assets/be245ca6-c2c1-46ce-8249-e58de40ab05e" />
 
 Q5. How Much Revenue Has Each Product Generated?
 
 The Laptop and Mobile Phone generated ₹100,000 each, making them the highest-revenue products.
+
 <img width="365" height="263" alt="image" src="https://github.com/user-attachments/assets/6a64ba9d-e8d1-4fad-a4df-bc9a3cf24ee0" />
 
 Q6. Which Product Category Generates the Highest Revenue?
 
 Electronics is the highest-revenue category, generating ₹200,000.
+
 <img width="425" height="215" alt="image" src="https://github.com/user-attachments/assets/b7c30710-7567-47fb-8d56-8709ffa6de29" />
 
 Q7. How Many Orders Has Each Customer Placed?
 
 The number of orders placed by each customer is calculated by grouping orders by customer.
+
 <img width="352" height="260" alt="image" src="https://github.com/user-attachments/assets/f3c3b4b6-d559-411f-8f57-cf71b0d97db7" />
 
 Q8. Which City Generates the Highest Revenue?
@@ -61,5 +65,140 @@ May 2025: ₹17,500
 <img width="355" height="278" alt="image" src="https://github.com/user-attachments/assets/991b0034-e150-4c8b-b64c-9c9c0136854a" />
 
 Q11. How can we update the price of a product?
+
+The UPDATE statement modifies the price of an existing product in the products table.
+
 <img width="361" height="206" alt="image" src="https://github.com/user-attachments/assets/eb8a4bf6-45ae-4021-8dea-0f2645c37cc3" />
+
+Q12. How Can We Find Orders Where the Quantity Is an Even Number?
+
+The modulo operator (%) identifies orders whose quantity is divisible by 2.
+
+<img width="460" height="220" alt="image" src="https://github.com/user-attachments/assets/641321c0-25ea-47ff-b186-ef1aba3729fb" />
+
+Q13. How Can We Calculate the Total Price After Applying a 10% Discount to Each Product?
+
+The query calculates the discounted price by subtracting 10% of the original price.
+
+<img width="578" height="222" alt="image" src="https://github.com/user-attachments/assets/7c1ffde7-0b17-4c6c-8467-8fc77c9e3234" />
+
+Q14. How Can We Find Orders Where the Quantity Is Greater Than 1 and the Total Amount Exceeds ₹10,000?
+
+The AND operator returns orders that satisfy both conditions.
+
+<img width="650" height="80" alt="image" src="https://github.com/user-attachments/assets/01ace373-0abf-4f31-9b11-74cd38b8e88d" />
+
+Q15. How Can We Find Orders With Either a Quantity of 3 or More or a Total Amount Above ₹40,000?
+
+The OR operator returns orders that satisfy at least one of the specified conditions.
+
+<img width="617" height="214" alt="image" src="https://github.com/user-attachments/assets/6a7706f9-0635-4d56-b0b7-14b3f51573bd" />
+
+Q16. How Can We Find Customers Who Live in Cities Other Than Delhi and Patna?
+
+The NOT IN operator filters out customers living in Delhi and Patna.
+
+<img width="521" height="185" alt="image" src="https://github.com/user-attachments/assets/59e370bb-f460-4417-a2b8-79e744cb5fb4" />
+
+Q17. How Can We Find the Unique Cities Represented in the Customer Table?
+
+The DISTINCT keyword displays each city only once.
+
+<img width="494" height="187" alt="image" src="https://github.com/user-attachments/assets/43037a0c-2ee2-4708-9788-46ee4a023ac0" />
+
+Q18. Which Product Categories Have Generated More Than ₹50,000 in Total Revenue?
+
+The GROUP BY and HAVING clauses identify categories with total revenue exceeding ₹50,000.
+
+<img width="540" height="173" alt="image" src="https://github.com/user-attachments/assets/683ddb31-51a5-44fc-8faf-a18fbf94db92" />
+
+Q19. How Can We Display the Three Most Expensive Products?
+
+The ORDER BY and LIMIT clauses return the three products with the highest prices.
+
+<img width="428" height="200" alt="image" src="https://github.com/user-attachments/assets/2a24771b-4c9a-44e1-b653-a58de0436d71" />
+
+Q20. How Can We Create a Table That Prevents Duplicate Product IDs and Requires a Product Name?
+
+The PRIMARY KEY constraint prevents duplicate product IDs, while NOT NULL ensures that the product name must be provided.
+
+<img width="617" height="202" alt="image" src="https://github.com/user-attachments/assets/23600cb9-e4cf-4ec8-81ec-6777eef82c14" />
+
+Q21. How Can We Display Each Order Along With the Customer Name and Product Name?
+
+The INNER JOIN combines the orders, customers, and products tables to display the related details.
+
+<img width="535" height="253" alt="image" src="https://github.com/user-attachments/assets/f379bdb2-3009-4933-a6d2-596a5674aa6e" />
+
+Q22. How Can We Display All Customers, Including Those Who Have Never Placed an Order?
+
+The LEFT JOIN displays every customer, including those without matching orders.
+
+<img width="570" height="137" alt="image" src="https://github.com/user-attachments/assets/10925dfd-6d18-4cb7-8dce-5ea50b6e9a83" />
+
+Q23. How Can We Display All Customers and Their Orders, Including Customers Without Orders?
+
+The query uses a LEFT JOIN to display customer details alongside their orders, where available.
+
+<img width="593" height="280" alt="image" src="https://github.com/user-attachments/assets/20f23884-d5fb-4546-b8d1-505f6bd7e23f" />
+
+Q24. How Can We Generate Every Possible Combination of Customers and Products?
+
+The CROSS JOIN generates every possible customer-product combination.
+
+<img width="523" height="248" alt="image" src="https://github.com/user-attachments/assets/eb30a3d3-d960-4849-899f-7354606c17a2" />
+
+Q25. How Can We Identify Customers Whose Total Spending Exceeds ₹40,000 Using a CTE?
+
+The Common Table Expression (CTE) calculates customer spending and filters customers whose total exceeds ₹40,000.
+
+<img width="551" height="275" alt="image" src="https://github.com/user-attachments/assets/22b5cbaf-036c-4576-be24-e540cb42a197" />
+
+Q26. How Can We Number Orders From Highest to Lowest by Order Amount?
+
+The ROW_NUMBER() function assigns a unique sequential number to each order based on its total amount.
+
+<img width="485" height="200" alt="image" src="https://github.com/user-attachments/assets/e2f52e2b-f778-4440-90e6-04f1c1755aa2" />
+
+Q27. How Can We Rank Orders by Total Amount While Giving Equal Amounts the Same Rank?
+
+The RANK() function assigns the same rank to tied amounts and skips the next rank number.
+
+<img width="566" height="203" alt="image" src="https://github.com/user-attachments/assets/d47b8533-46ca-4f26-aff5-952a501741bc" />
+
+Q28. How Can We Rank Orders Without Skipping Rank Numbers When Amounts Are Equal?
+
+The DENSE_RANK() function assigns equal amounts the same rank without leaving gaps.
+
+<img width="538" height="201" alt="image" src="https://github.com/user-attachments/assets/de87e634-8bf7-4120-882d-8b06932f2121" />
+
+Q29. How Can We Compare Each Customer's Order Amount With Their Previous Order?
+
+The LAG() function retrieves the previous order amount for comparison within each customer's orders.
+
+<img width="533" height="216" alt="image" src="https://github.com/user-attachments/assets/a3de5141-61cc-4a00-b114-b4103e0135c9" />
+
+Q30. How Can We Display the Next Order Amount for Each Customer?
+
+The LEAD() function retrieves the next order amount for each customer.
+
+<img width="538" height="206" alt="image" src="https://github.com/user-attachments/assets/c7a23ef4-fe5b-48db-99ef-e24ca32f46f4" />
+
+Q31. How Can We Display the First Order Amount for Every Customer on All Their Order Rows?
+
+The FIRST_VALUE() function displays the first order amount across the specified window for each customer.
+
+<img width="588" height="211" alt="image" src="https://github.com/user-attachments/assets/c9fe821e-a4f9-4a25-82e3-e5768b3bb827" />
+
+Q32. How Can We Display the Last Order Amount for Every Customer on All Their Order Rows?
+
+The LAST_VALUE() function retrieves the last order amount within the defined window frame for each customer.
+
+<img width="578" height="224" alt="image" src="https://github.com/user-attachments/assets/605ebf45-9062-4f34-9e94-c525a2516546" />
+
+Q33. How Can We Calculate a Running Total of Order Revenue Over Time?
+
+The SUM() window function calculates cumulative revenue as each new order is included in the running total.
+
+<img width="488" height="231" alt="image" src="https://github.com/user-attachments/assets/c8c38b0b-8428-4677-ad41-cd5542ae25a5" />
 
