@@ -36,26 +36,26 @@ The project uses three tables:
 
 **1. Customers**
 
-- customer_id — Unique ID for each customer
-- customer_name — Name of the customer
-- city — Customer's city
-- signup_date — Customer registration date
+- customer_id - Unique ID for each customer
+- customer_name - Name of the customer
+- city - Customer's city
+- signup_date - Customer registration date
 
 **2. Products**
 
-- product_id — Unique ID for each product
-- product_name — Name of the product
-- category — Product category
-- price — Product price
+- product_id - Unique ID for each product
+- product_name - Name of the product
+- category - Product category
+- price - Product price
 
 **3. Orders**
 
-- order_id — Unique ID for each order
-- customer_id — Customer who placed the order
-- product_id — Product purchased
-- order_date — Date of the order
-- quantity — Number of units purchased
-- total_amount — Total amount for the order
+- order_id - Unique ID for each order
+- customer_id - Customer who placed the order
+- product_id - Product purchased
+- order_date - Date of the order
+- quantity - Number of units purchased
+- total_amount - Total amount for the order
 
 The tables are connected through primary and foreign key relationships to maintain data integrity.
 
